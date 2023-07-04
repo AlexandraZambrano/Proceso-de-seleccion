@@ -205,6 +205,21 @@ ul{
     margin-top: 15px;
     text-align: center;
 }
+
+.extraText{
+    display: flex;
+    width: 100%;
+    /* margin: 0 5%; */
+    justify-content: space-between;
+}
+
+.opinionDate{
+    color: #777;
+}
+
+.opinionDetail{
+    color: #ffa500;
+}
 /*Opiniones FINAL*/
 
 /*Preguntas frecuentes INICIO*/
@@ -224,7 +239,7 @@ ul{
     margin-bottom: 30px;
 }
 
-.faq-heading{
+.section-heading{
     border-bottom: #777;
     padding: 20px 60px;
     text-align: center;
