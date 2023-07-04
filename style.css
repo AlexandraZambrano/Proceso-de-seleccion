@@ -1,0 +1,320 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #EAF1FA, #F8FAEA);
+    margin: 0;
+}
+
+/*Navbar INICIO*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoImg{
+    width: 120px;
+}
+
+li{
+    margin: 0 10px 0 10px;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+.navLink{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.navLink:hover{
+    background-color: #6B5DA0;
+    border-radius: 10px;
+}
+/*Navbar FINAL*/
+
+
+/*Header INICIO*/
+.header{
+    display: flex;
+    padding-left: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTitle{
+    font-size: 83px;
+    color: #6B5DA0;
+}
+
+.headerDescription{
+    font-size: 20px;
+}
+
+.mainDogImg{
+    width: 575px;
+    height: 100vh;
+}
+
+.buttons{
+    margin-top: 60px;
+}
+
+.btn{
+    padding: 15px 74px;
+    border-radius: 50px;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0px 8px 18px -7px #8e8b8b;
+}
+
+.btn:hover{
+    background-color: black;
+    color: white;
+}
+
+.lostBtn{
+    background-color: yellow;
+}
+
+.foundBtn{
+    background-color: white;
+    margin-left: 10px;
+}
+
+/*Header FINAL*/
+
+/*info cartas INICIO*/
+
+.infoCards{
+    display: flex;
+    align-items: center;
+    margin: 5% 0;
+    flex-wrap: nowrap;
+}
+
+.infoCard{
+    margin: 0 5%;
+    text-align: justify;
+}
+
+.infoCardImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    position: absolute;
+}
+/*info cartas FINAL*/
+
+
+/*Ads Cartas INICIO*/
+.adsCards{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.adImg{
+    width: 350px;
+    height: 150px;
+    border-radius: 27px 27px 0 0;
+    object-fit: cover;
+}
+
+.petStatusTitle {
+    text-align: left;
+    font-size: small;
+    padding-left: 10px;
+}
+.adCard {
+    border-radius: 27px;
+    height: 249px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 8px 18px -7px #8e8b8b;
+    box-shadow: cornsilk;
+}
+
+.adCardContent{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.adPetStatus{
+    font-size: xx-small;
+    background: aliceblue;
+    padding: 0px 15px;
+    border-radius: 10px;
+}
+
+.updatedAt{
+    font-size: x-small;
+    text-align: right;
+    padding-right: 10px;
+    color: forestgreen;
+}
+
+.adsButtons{
+    text-align: center;
+}
+/*Ads Cartas FINAL*/
+
+
+/*Opiniones INICIO*/
+
+.opinionsCards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5%;
+    justify-content: space-evenly;
+}
+
+.opinionCard{
+    flex-basis: 24%;
+    border-radius: 10px;
+    text-align: center;
+    background: #ffffff;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.opinionCard img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;
+}
+.opinionCard p{
+    padding: 0%;
+}
+.opinionCard h3{
+    margin-top: 15px;
+    text-align: center;
+}
+/*Opiniones FINAL*/
+
+/*Preguntas frecuentes INICIO*/
+
+.freQuestions{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: #ffffff;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.faq-heading{
+    border-bottom: #777;
+    padding: 20px 60px;
+    text-align: center;
+}
+
+.faq-container {
+    width: 52%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+    color: #444;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 30px 20px;
+    transition: 0.4s;
+    margin: auto;
+}
+.faq-body{ 
+   padding: auto;
+   
+}
+.faq-body {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+}
+
+.faq-page:hover {
+    background-color: #DEE1F8;
+}
+
+.faq-page:after {
+    content: '\02795';
+    /* Unicode para el signo "más" (+) */
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2796";
+    /* Unicode para el signo "menos" (-) */
+}
+
+/*Preguntas frecuentes FINAL*/
+
+/*Footer INICIO*/
+.footer{
+    background:#616196;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:rgb(255, 255, 255);
+    font-size:0.8em;
+}
+    
+.footer .row a{
+    text-decoration:none;
+    color:#DEE1F8;
+    transition:0.5s;
+}
+    
+.footer .row a:hover{
+    color:#fff;
+}
+    
+.footer .row ul{
+    width:100%;
+    display: flex;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+.footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+}
+/*Footer FINAL*/
